@@ -1,9 +1,13 @@
-
-# === Core Dependencies ===
+# === Core Framework ===
 streamlit
 python-dotenv
+ipykernel
+pandas
+validators==0.28.1
+numexpr
+torch
 
-# === LangChain Ecosystem (compatible versions) ===
+# === LangChain Ecosystem (v0.3.22 compatible) ===
 langchain==0.3.22
 langchain-community==0.0.55
 langchain-openai==0.1.8
@@ -12,16 +16,16 @@ langchain-text-splitters==0.3.7
 langchain-chroma==0.1.3
 langchain-huggingface==0.1.2
 
-# === Vector Store ===
+# === Vector DBs ===
 faiss-cpu==1.7.4
 chromadb==0.4.24
 
-# === Transformers, Embeddings, and NLP ===
+# === NLP & Embeddings ===
 sentence-transformers==2.2.2
 transformers==4.34.0
 huggingface_hub==0.20.2
 
-# === Data Parsing ===
+# === Data Parsing & Web Sources ===
 pypdf
 pymupdf
 beautifulsoup4
@@ -32,21 +36,15 @@ youtube_transcript_api
 unstructured
 pytube
 
-# === APIs and Databases ===
+# === Backend & APIs ===
 openai==1.13.3
 mysql-connector-python
 SQLAlchemy
+duckduckgo-search
 
-# === Web App / Backend ===
+# === Web App Servers ===
 flask
 gunicorn
 fastapi
 uvicorn
 
-# === Utils ===
-duckdb
-pandas
-validators==0.28.1
-numexpr
-torch
-duckduckgo-search
