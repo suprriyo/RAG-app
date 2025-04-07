@@ -11,6 +11,10 @@ from langchain.chains import create_retrieval_chain
 from langchain_community.vectorstores import FAISS
 from langchain_core.documents import Document
 from langchain_huggingface import HuggingFaceEmbeddings
+langchain_api_key = st.secrets["LANGCHAIN_API_KEY"]
+groq_api_key = st.secrets["GROQ_API_KEY"]
+hf_token = st.secrets["HF_TOKEN"]
+
 
 
 load_dotenv()
